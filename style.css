@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+
+.main_links {
+  font-family: 'Silkscreen', cursive;
+  color: red;
+}
+
+.navMenu {
+  border-bottom: 4px solid #2f3278;
+}
+
+.form {
+  background-color: #000;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.form-disc {
+  text-decoration: none;
+  background-color: #738ADB;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-disc img {
+  max-height: 55px;
+  margin-top: 6px;
+}
+
+.form-disc h3 {
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF;
+}
+
+
+
+.form h3 {
+  margin-top: 0;
+  text-align: center;
+  border-bottom: 2px solid #555;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.title-red h3{
+  color: red;
+}
+
+.title-green {
+  color: #2f3278;
+}
+
+.pa a {
+  color: #2f3278;
+}
+
+.logo img{
+  max-height: 25px;
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  border-top: 4px solid #2f3278;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  position: fixed;
+  bottom: 0;
+}
+
+.console {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.console img {
+  max-width: 30px;
+}
+
+.rule-sub {
+  color: #999;
+  text-decoration: underline;
+}
